@@ -1,5 +1,8 @@
 # React Google Books Search
 
+![GitHub Last Commit Badge](https://img.shields.io/github/last-commit/alexbachicha/GoogleBooksSearch)
+![Made by Alex Bachicha Badge](https://img.shields.io/badge/made%20by-alexbachicha-orange)
+
 ## Description
 
 The Google Books Search is a React-based application that uses MERN stack and the Google Books API. Users can search for books based on search criteria and save books to review later on.
