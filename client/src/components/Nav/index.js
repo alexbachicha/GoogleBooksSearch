@@ -34,9 +34,8 @@ class Nav extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
         <Link className="navbar-brand" to="/">
-          Google Books Search!
+          Google Books
         </Link>
-
         <button
           onClick={this.toggleNav}
           className="navbar-toggler"
@@ -48,7 +47,6 @@ class Nav extends Component {
         >
           <span className="navbar-toggler-icon" />
         </button>
-
         <div className={`${this.state.open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
@@ -60,7 +58,6 @@ class Nav extends Component {
                 Search
               </Link>
             </li>
-
             <li className="nav-item">
               <Link
                 onClick={this.toggleNav}
